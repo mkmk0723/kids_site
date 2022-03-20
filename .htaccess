@@ -1,0 +1,8 @@
+<Files ~ "^\.ht">
+deny from all
+</Files>
+AuthUserFile /home/annemiki.xsrv.jp/kids_site/.htpasswd
+AuthGroupFile /dev/null
+AuthName "kids_site"
+AuthType Basic
+require valid-user
